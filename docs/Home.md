@@ -18,18 +18,22 @@
 
 需求 → AI 辅助拆解 → **开发板验证** → 固件 → PCB → 外壳 → 打板与打印 → 实物验收
 
-黑客松 / 工作坊通常交付到「开发板验证 + 固件」。
+第一次项目通常先交付到「开发板验证 + 固件」，再决定是否画 PCB、做外壳。
 
 ## 目录
 
 - [思想](philosophy.md)
 - [从零到产品路线图](roadmap.md)
 - [Starter Kit](starter-kit.md)
+- [开发板怎么选](boards.md)
+- [采购入口与核对方法](buying.md)
 - [六关学习路径](learning-path.md)
 - [最小接线约定](wiring.md)
 - [硬件安全规则](safety.md)
 - [工具平台地图](tools.md)
 - [适合新手的项目](projects.md)
+- [嘉立创 PCB / PCBA / 3D 打印](manufacturing-jlc.md)
+- [完整案例：Open Duck Mini](cases/open-duck-mini.md)
 - [资源与案例](resources.md)
 
 ## 简化原则
@@ -37,4 +41,4 @@
 - 每人只配**基础包**
 - 麦克风、喇叭、屏幕、NFC **按小组共享**
 - 项目定了再加摄像头、电机或电池
-- 2 小时工作坊优先 [立创实战派集成板](resources.md#立创实战派-esp32-s3)
+- 想快速成功，优先选集成屏幕、麦克风和喇叭的板

@@ -1,8 +1,8 @@
 # Vibe Hardware
 
-面向没有硬件经验的人：用 AI + 便宜开发板，几小时内做出能跑的小装置。
+面向没有硬件经验的人：用 AI + 便宜开发板，从第一个输入/输出做到可复现的硬件产品。
 
-本仓库先以 **Markdown 入门 wiki**（`docs/`）为主；下一步再迁成网站（VitePress / Docsify / 静态站均可，内容不必重写）。
+`docs/` 是完整 Wiki 的单一事实源；网站只做阅读入口，避免两份内容漂移。
 
 ## 快速入口
 
@@ -10,8 +10,13 @@
 - [思想](docs/philosophy.md)
 - [路线图](docs/roadmap.md)
 - [Starter Kit](docs/starter-kit.md)
+- [开发板怎么选](docs/boards.md)
+- [采购链接](docs/buying.md)
 - [六关学习路径](docs/learning-path.md)
 - [工具平台地图](docs/tools.md)
+- [嘉立创：PCB / PCBA / 3D 打印](docs/manufacturing-jlc.md)
+- [完整案例：Open Duck Mini](docs/cases/open-duck-mini.md)
+- [给 AI / Codex 使用的 Skill](skills/vibe-hardware/SKILL.md)
 
 ## 本地浏览
 
@@ -21,6 +26,6 @@
 npx --yes docsify-cli serve docs
 ```
 
-## 之后变成网站
+在线入口：[Vibe Hardware](https://vibe-hardware-mako.makoshan.chatgpt.site/)
 
-把 `docs/` 接到 VitePress / Docusaurus / Docsify 即可；侧栏用 `_Sidebar.md`。
+> 购买链接不是广告或返佣链接。价格、库存、版本和店铺可能变化，下单前以官方规格和结算页为准。
