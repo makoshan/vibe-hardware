@@ -14,7 +14,21 @@
 | **外部** | 4. 制作实体并验证 | 结构可装、可打印、可维护 | [3D 打印](manufacturing-jlc.md#d-嘉立创-3d-打印) |
 | **整合** | 5. 整合内外软硬件 | PCBA 装进壳，验证电、热、无线与续航 | [安全规则](safety.md) |
 | **问世** | 6. 文档与展示 | Demo、照片、说明书、源码和 BOM | [案例库](resources.md#21-可复现案例库) |
-| **问世** | 7. 小批量制造 | 10–100+ 台，建立测试与售后 | 单独立项 |
+| **问世** | 7. 小批量制造 | 10–100+ 台，建立测试与售后 | [试产、成本、测试与售后](product-course.md#small-batch) |
+
+## 配套实操教程
+
+[从原型到产品](product-course.md)补充原图的缺少项：
+
+- [需求拆解](product-course.md#requirements)：需求、模块 BOM 与验证。
+- [电路进阶](product-course.md#electronics)：手册、模拟电路、信号与返修。
+- [外观交互](product-course.md#interaction)：草图、界面、LVGL 与效果图。
+- [实体加工](product-course.md#enclosure)：尺寸示例、试装、后处理与其他工艺。
+- [整机联调](product-course.md#integration)：功耗、OTA 与 Linux 选修。
+- [宣发](product-course.md#launch)：摄影、剪辑、产品页与素材清单。
+- [小批量](product-course.md#small-batch)：试产、治具、成本、包装与售后。
+
+这些是教学步骤和练习材料，不代表已经完成对应实物或生产验收。原图的软件名称以同类工具覆盖，不要求每款软件分别学习。
 
 ## 每一步怎么写、怎么验
 

@@ -1,6 +1,7 @@
 - [首页](Home.md)
 - [思想](philosophy.md)
 - [路线图](roadmap.md)
+- [从原型到产品 · 七章实操](product-course.md)
 - [Starter Kit](starter-kit.md)
 - [开发板怎么选](boards.md)
 - [采购入口](buying.md)

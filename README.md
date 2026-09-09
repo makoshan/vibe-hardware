@@ -9,6 +9,7 @@
 - [首页 / 地图](docs/Home.md)
 - [思想](docs/philosophy.md)
 - [路线图](docs/roadmap.md)
+- [从原型到产品 · 七章实操](docs/product-course.md)
 - [Starter Kit](docs/starter-kit.md)
 - [开发板怎么选](docs/boards.md)
 - [采购链接](docs/buying.md)
@@ -32,3 +33,7 @@ npx --yes docsify-cli serve docs
 在线入口：[Vibe Hardware](https://vibe-hardware-mako.makoshan.chatgpt.site/)
 
 > 购买链接不是广告或返佣链接。价格、库存、版本和店铺可能变化，下单前以官方规格和结算页为准。
+
+## 产品教程的内容源
+
+`docs/product-course.json` 是七章产品教程的编辑源；`docs/course-files/` 是练习附件。网站构建前运行 `site/scripts/export-course.mjs`，生成 Wiki Markdown、网站内容和下载文件。请修改源文件后重新生成，不要直接改生成文件。其余 Wiki 继续直接编辑 Markdown。
