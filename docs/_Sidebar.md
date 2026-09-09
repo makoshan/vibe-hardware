@@ -5,6 +5,7 @@
 - [开发板怎么选](boards.md)
 - [采购入口](buying.md)
 - [六关路径](learning-path.md)
+- [六个入门实验](basics-labs.md)
 - [接线约定](wiring.md)
 - [安全规则](safety.md)
 - [工具地图](tools.md)
