@@ -2,16 +2,29 @@
 
 “一键下单”只负责把文件带到报价页，不等于设计正确，也不等于订单已付款生产。
 
+网页实操版：[EDA → PCB → SMT 完整教程](https://vibe-hardware.v2eth.workers.dev/manufacturing)
+
+## 0. 嘉立创 EDA 专业版：从原理图到 PCB
+
+1. 打开[嘉立创 EDA 专业版](https://pro.lceda.cn/editor)，选择 **文件 → 新建 → 工程**。默认板子已经包含原理图和 PCB。
+2. 在原理图放置器件、连接导线并填写位号与数值。计划交给嘉立创贴片的元件，优先选择有立创商城编号、可贴片且有库存的型号。
+3. 运行 **设计 → 检查 DRC**，修正错误后选择 **设计 → 更新/转换原理图到 PCB**。
+4. 先绘制闭合板框和安装孔，再布局。连接器放在板边，去耦电容靠近芯片电源脚，并对照实物确认接口方向。
+5. 设置设计规则，完成布线与铺铜；检查未连接飞线，再运行 PCB DRC。
+6. 打开 2D / 3D 预览，复核板框、孔位、丝印、USB/FPC/排针方向，保存带版本号的工程副本。
+
+官方：[快速入门](https://prodocs.lceda.cn/cn/quick-start.html) · [原理图设计](https://prodocs.lceda.cn/cn/private/designer/design-schematic.html) · [PCB 设计](https://prodocs.lceda.cn/cn/private/designer/design-pcb.html) · [官方视频教程](https://prodocs.lceda.cn/cn/faq/video-tutorial/index.html)
+
 ## A. PCB 裸板：最短流程
 
 1. 在嘉立创 EDA 专业版完成原理图、封装、板框、布局与布线。
 2. 运行 ERC / DRC，人工检查接口方向、孔径、丝印、板厚和安装尺寸。
-3. 在 PCB 编辑器使用 **下单 PCB / Order PCB**。系统会从当前 PCB 生成 Gerber 并上传到嘉立创报价页。
+3. 在 PCB 编辑器使用 **导出 → PCB 制板文件（Gerber）**；也可以选择 **下单 → PCB 下单**，让系统生成并上传 Gerber。
 4. 核对板材、层数、尺寸、板厚、铜厚、阻焊、表面处理、数量和拼板方式。
 5. 下载并保存一份 Gerber 备份；打开 Gerber 预览逐层检查。
 6. 加入购物车、填写物流并付款。看到报价页不算下单完成。
 
-官方：[EasyEDA Pro · Order PCB](https://prodocs.easyeda.com/en/pcb/order-order-pcb/) · [嘉立创 PCB](https://www.jlc.com/)
+官方：[导出 Gerber](https://prodocs.lceda.cn/cn/pcb/export-pcb-fabrication-file-gerber/) · [PCB 一键下单](https://prodocs.lceda.cn/cn/pcb/order-order-pcb/index.html) · [嘉立创 PCB](https://www.jlc.com/)
 
 ## B. PCBA / SMT：板和元件一起做
 
@@ -25,7 +38,7 @@
 
 流程：
 
-1. 先做“器件标准化”，给元件绑定正确的立创商城 / LCSC 编号。
+1. 先做“器件标准化”，给元件绑定正确的立创商城 / LCSC 编号。商城散件库存与 SMT 贴片库存不是同一个库存。
 2. 下单 PCB，开启 **PCB Assembly / SMT**；不要先单独支付裸板。
 3. 上传或由 EDA 一键带入 Gerber、BOM、CPL。
 4. 在元件匹配页逐行确认型号、封装、库存、数量、价格和替代料。
@@ -33,7 +46,7 @@
 6. 未匹配、缺货或未勾选的器件可能默认不贴；明确标出 DNP / 手焊项。
 7. 查看生产稿，确认后再付款；生产中继续查看订单状态。
 
-官方：[PCBA 下单步骤](https://jlcpcb.com/help/article/how-do-i-place-a-pcba-order) · [EasyEDA 导出 BOM/CPL](https://jlcpcb.com/help/article/how-to-generate-the-bom-and-pick%26place-file-from-easyeda) · [元件匹配规则](https://jlcpcb.com/help/article/component-matching-guidelines-for-pcba-orders)
+官方：[PCB / SMT 完整下单流程](https://docs.lceda.cn/cn/PCB/Order-PCB/index.html) · [导出 BOM](https://prodocs.lceda.cn/cn/pcb/export-bill-of-materials-bom/index.html) · [导出坐标文件](https://prodocs.lceda.cn/cn/pcb/export-pick-and-place-file/) · [PCBA 下单步骤](https://jlcpcb.com/help/article/how-do-i-place-a-pcba-order)
 
 ## C. 只买零件
 
