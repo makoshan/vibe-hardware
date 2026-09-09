@@ -34,6 +34,17 @@
 
 Watchy 最适合新手理解完整产品；Open-SmartWatch 适合展示真实原理图 / PCB / 制造文件。
 
+## 2.1 可复现案例库
+
+| 案例 | 核心材料 | 适合学习 |
+|---|---|---|
+| [Open Duck Mini v2](cases/open-duck-mini.md) | Onshape、STL、BOM、装配、运行时、强化学习 | 机器人整机与高风险执行器验证 |
+| [Watchy](https://github.com/sqfmi/Watchy) | ESP32、电子纸、硬件资料、固件 | 从成熟开发板做功能和外壳 |
+| [Open-SmartWatch](https://github.com/Open-Smartwatch/open-smartwatch) | KiCad、Gerber、BOM、固件、3D 外壳 | 从开源工程进入 PCB 和装配 |
+| [Autonomous Vibe](https://github.com/autonomous-ai/autonomous-vibe) | 自然语言生成 CAD、STEP/STL、打印 | AI 辅助结构建模，不含电路链路 |
+
+案例进入本 Wiki 的最低标准：有公开工程源文件或制造文件；能明确许可证和版本；把“作者演示成功”与“我们已经复现”分开。
+
 ## 3. 国内入门材料
 
 ### 立创实战派 ESP32-S3

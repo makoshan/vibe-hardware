@@ -6,13 +6,14 @@
 
 思想见 [philosophy.md](philosophy.md)。总览见 [从零到产品路线图](roadmap.md)。
 
-## 三层材料（别混在一起）
+## 按四段七步阅读
 
-| 层 | 用途 | 本仓库 |
+| 阶段 | 先读 | 再做 |
 |---|---|---|
-| 1. 入门地图 | 路线、套件、工具、安全 | `docs/` |
-| 2. 工作坊 | 2 小时：集成板或面包板 + 六关 | [学习路径](learning-path.md) |
-| 3. 进阶制造 | PCB、外壳、打板、小批量 | [路线图](roadmap.md) 后半 |
+| 内部：功能与 PCB | [选板](boards.md) · [Starter Kit](starter-kit.md) · [六关](learning-path.md) | 面包板验证 → 初期 PCB |
+| 外部：交互与结构 | [工具地图](tools.md) · [制造](manufacturing-jlc.md) | UI 状态 → CAD → 打印试装 |
+| 整合：软硬件联调 | [接线](wiring.md) · [安全](safety.md) | 电、热、无线、续航与故障恢复 |
+| 问世：文档与制造 | [案例库](resources.md#21-可复现案例库) | Demo、BOM、组装说明 → 小批量 |
 
 ## 一条真实路线
 
