@@ -11,4 +11,6 @@
 - [项目方向](projects.md)
 - [嘉立创制造](manufacturing-jlc.md)
 - [案例 · Open Duck Mini](cases/open-duck-mini.md)
+- [案例 · Microduck / Fanduck](cases/microduck.md)
+- [案例 · OttoClaw](cases/ottoclaw.md)
 - [资源](resources.md)

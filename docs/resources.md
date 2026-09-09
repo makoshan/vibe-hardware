@@ -38,6 +38,8 @@ Watchy 最适合新手理解完整产品；Open-SmartWatch 适合展示真实原
 
 | 案例 | 核心材料 | 适合学习 |
 |---|---|---|
+| [Microduck / Fanduck](cases/microduck.md) | Rust、PPO / MuJoCo、Robot HAT、BOM、打印件与装配资料 | 双足机器人的软硬件分层与国内复刻边界 |
+| [OttoClaw](cases/ottoclaw.md) | ESP32-S3 固件、PCB/BOM、6 路舵机、STL 与装配教程 | 低成本桌面机器人的完整复刻链路 |
 | [Open Duck Mini v2](cases/open-duck-mini.md) | Onshape、STL、BOM、装配、运行时、强化学习 | 机器人整机与高风险执行器验证 |
 | [Watchy](https://github.com/sqfmi/Watchy) | ESP32、电子纸、硬件资料、固件 | 从成熟开发板做功能和外壳 |
 | [Open-SmartWatch](https://github.com/Open-Smartwatch/open-smartwatch) | KiCad、Gerber、BOM、固件、3D 外壳 | 从开源工程进入 PCB 和装配 |
