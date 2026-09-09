@@ -1,11 +1,11 @@
 {
-  "title": "从原型到产品",
+  "title": "从零到产品：四段七步",
   "updated": "2026-09-09",
-  "intro": "补齐路线图的七个阶段：需求与电路进阶、外观交互、实体加工、整机联调、宣发和小批量交付。与入门实验、制造教程配合使用。教学示例与真实验收分开记录。",
+  "intro": "先用一句话写清产品目标，再按内部、外部、整合、问世四段推进。入门实验和制造教程属于对应步骤的实操资料；工作台、实验室、资料库和案例用于辅助完成当前步骤。每一步以实物验证和交付记录为准。",
   "chapters": [
     {
       "id": "requirements",
-      "title": "需求拆解与功能验证",
+      "title": "拆解功能并验证",
       "summary": "把一句产品目标变成可重复的输入、处理和输出。先完成已有六个接口实验，再做本章。",
       "output": "一页需求、模块 BOM、引脚表、三次重复测试记录。",
       "sections": [
@@ -111,14 +111,36 @@
           "label": "乐鑫开发板资料",
           "href": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/index.html"
         }
-      ]
+      ],
+      "group": "内部"
     },
     {
       "id": "electronics",
-      "title": "读手册、电路与返修",
+      "title": "制作初期 PCB",
       "summary": "补上从模块原型走向自制 PCB 所需的电路判断。PCB 与 SMT 的具体操作继续使用现有制造教程。",
       "output": "器件核对表、测量记录、通过检查的原理图与制造文件。",
       "sections": [
+        {
+          "title": "先完成 PCB 设计与打样",
+          "paragraphs": [
+            "将第 1 步已验证的模块整理成原理图，再完成布局、布线、检查和打样。具体操作沿用制造教程；本章后续内容用于器件判断、测量和返修。"
+          ],
+          "steps": [
+            "完成原理图与 PCB 检查，复核 Gerber、BOM 和贴装方向。",
+            "收到样板后先检查短路，再限流上电，复测第 1 步的核心功能。"
+          ],
+          "check": [
+            "留存制造文件、板卡版本和实测记录；生成文件或下单不代表样板已通过。"
+          ],
+          "table": null,
+          "code": null,
+          "links": [
+            {
+              "label": "打开 EDA、PCB 与 SMT 制造教程",
+              "href": "/manufacturing"
+            }
+          ]
+        },
         {
           "title": "读一份手册：先找这六处",
           "paragraphs": [],
@@ -212,11 +234,12 @@
           "label": "Adafruit 焊接教程",
           "href": "https://learn.adafruit.com/adafruit-guide-excellent-soldering"
         }
-      ]
+      ],
+      "group": "内部"
     },
     {
       "id": "interaction",
-      "title": "外观与屏幕交互",
+      "title": "设计外观及交互",
       "summary": "用纸稿确定操作，再用 Figma 和 LVGL 把状态做出来。",
       "output": "三版草图、1:1 界面稿、状态表、LVGL 状态预览与使用观察。",
       "sections": [
@@ -359,11 +382,12 @@
           "label": "LVGL 硬件接入",
           "href": "https://docs.lvgl.io/9.4/details/integration/overview/connecting_lvgl.html"
         }
-      ]
+      ],
+      "group": "外部"
     },
     {
       "id": "enclosure",
-      "title": "实体结构、加工与表面",
+      "title": "制作实体并验证",
       "summary": "做一个有尺寸来源、能试装和维修的盒子，再做外观处理。",
       "output": "可编辑 CAD、STEP、分件 STL、装配记录、表面样片。",
       "sections": [
@@ -538,11 +562,12 @@
           "label": "Protolabs：CNC 设计资料",
           "href": "https://www.protolabs.com/media/1020108/cnc_design_essentials_wp_18.pdf"
         }
-      ]
+      ],
+      "group": "外部"
     },
     {
       "id": "integration",
-      "title": "整机联调、升级与 Linux 选修",
+      "title": "整合内外软硬件",
       "summary": "把软件装进硬件后，按供电、外设、体验、异常恢复逐层验收。",
       "output": "联调矩阵、功耗实测、固件发布包、恢复步骤；Linux 项目另留移植记录。",
       "sections": [
@@ -698,11 +723,12 @@
           "label": "Linux 平台驱动模型",
           "href": "https://docs.kernel.org/driver-api/driver-model/platform.html"
         }
-      ]
+      ],
+      "group": "整合"
     },
     {
       "id": "launch",
-      "title": "产品摄影、视频与宣发",
+      "title": "宣发",
       "summary": "让陌生人看懂产品能做什么，并区分真实演示与渲染。",
       "output": "六张实拍图、30 秒演示、产品页文案、说明书和素材授权记录。",
       "sections": [
@@ -840,11 +866,12 @@
           "label": "Blackmagic Design 官方训练",
           "href": "https://www.blackmagicdesign.com/products/davinciresolve/training"
         }
-      ]
+      ],
+      "group": "问世"
     },
     {
       "id": "small-batch",
-      "title": "小批量制造、成本与售后",
+      "title": "小批量制造",
       "summary": "从已验收样机进入小规模交付，先控制版本和逐台质量。",
       "output": "生产 BOM、试产记录、测试 SOP、成本表、包装清单与售后台账。",
       "sections": [
@@ -1026,7 +1053,8 @@
           "label": "Adafruit 测试治具教程",
           "href": "https://learn.adafruit.com/how-to-build-a-testing-fixture?view=all"
         }
-      ]
+      ],
+      "group": "问世"
     }
   ]
 }

@@ -9,7 +9,7 @@
 - [首页 / 地图](docs/Home.md)
 - [思想](docs/philosophy.md)
 - [路线图](docs/roadmap.md)
-- [从原型到产品 · 七章实操](docs/product-course.md)
+- [从零到产品 · 四段七步](docs/product-course.md)
 - [Starter Kit](docs/starter-kit.md)
 - [开发板怎么选](docs/boards.md)
 - [采购链接](docs/buying.md)

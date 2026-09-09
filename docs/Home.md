@@ -44,6 +44,6 @@
 - 项目定了再加摄像头、电机或电池
 - 想快速成功，优先选集成屏幕、麦克风和喇叭的板
 
-## 从原型到产品
+## 从零到产品：四段七步
 
-[七章实操](product-course.md)：需求拆解、电路进阶、外观交互、结构与加工、整机联调、宣发和小批量交付。每章附交付物、验收标准与参考来源；[网页阅读](https://vibe-hardware.v2eth.workers.dev/product-course)。
+[四段七步](product-course.md)：内部（功能验证、初期 PCB）、外部（外观交互、实体制作）、整合（内外软硬件）、问世（宣发、小批量）。每章附交付物、验收标准与参考来源；[网页阅读](https://vibe-hardware.v2eth.workers.dev/product-course)。
