@@ -7,6 +7,8 @@
 ## 快速入口
 
 - [首页 / 地图](docs/Home.md)
+- [思想](docs/philosophy.md)
+- [路线图](docs/roadmap.md)
 - [Starter Kit](docs/starter-kit.md)
 - [六关学习路径](docs/learning-path.md)
 - [工具平台地图](docs/tools.md)

@@ -1,4 +1,6 @@
 - [首页](Home.md)
+- [思想](philosophy.md)
+- [路线图](roadmap.md)
 - [Starter Kit](starter-kit.md)
 - [六关路径](learning-path.md)
 - [接线约定](wiring.md)
