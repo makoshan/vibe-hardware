@@ -5,6 +5,8 @@ description: Create or review hardware enclosures, brackets, and printable mecha
 
 # Vibe Hardware CAD
 
+For the actual modeling runtime and setup, see [the installed CAD Skill snapshot](../cad/README.md). This file is the hardware workflow; the snapshot includes the upstream CAD scripts and references.
+
 Read `../../docs/manufacturing-jlc.md` and the relevant case page before changing geometry.
 
 1. Collect exact board revision, connector envelopes, keep-outs, fasteners, cable bend space, and measured dimensions.

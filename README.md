@@ -18,7 +18,8 @@
 - [嘉立创：PCB / PCBA / 3D 打印](docs/manufacturing-jlc.md)
 - [完整案例：Open Duck Mini](docs/cases/open-duck-mini.md)
 - [通用 Skill](skills/vibe-hardware/SKILL.md)
-- [3D 建模 Skill](skills/vibe-hardware-cad/SKILL.md)
+- [当前使用的 CAD Skill 源码快照](skills/cad/README.md)
+- [3D 建模工作流](skills/vibe-hardware-cad/SKILL.md)
 - [PCB / PCBA Skill](skills/vibe-hardware-pcb/SKILL.md)
 - [固件与开发板 Skill](skills/vibe-hardware-firmware/SKILL.md)
 
